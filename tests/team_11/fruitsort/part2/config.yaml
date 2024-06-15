@@ -1,0 +1,40 @@
+screen:
+  width: 870
+  height: 1000
+  fps: 60
+  delay: 60
+  white: [245, 245, 245]
+  score: [620, 60]
+
+pad:
+  left: 360
+  top: 200
+  right: 863
+  bot: 700
+  line_top: 200
+  line_bot: 680
+  killy: 260
+
+physics:
+  density: 0.001
+  elasticity: 0.1
+  impulse: 10000
+  gravity: 600
+  damping: 0.8
+  bias: 0.00001
+  fruit_friction: 0.4
+  wall_friction: 10
+
+one:    {size: [40, 40],   offset: [-4, -4], radius: 17,  points: 0}
+two:    {size: [40, 43],   offset: [-1, 0],  radius: 21,  points: 5}
+three:  {size: [62, 56],   offset: [0, -1],  radius: 29,  points: 10}
+four:   {size: [72, 69],   offset: [2, 0],   radius: 35,  points: 20}
+five:   {size: [88, 96],   offset: [0, -3],  radius: 45,  points: 40}
+six:    {size: [112, 112], offset: [0, 0],   radius: 56,  points: 60}
+seven:  {size: [130, 130], offset: [0, 0],   radius: 65,  points: 80}
+eight:  {size: [156, 156], offset: [-1, -1], radius: 78,  points: 100}
+nine:   {size: [175, 200], offset: [0, -13], radius: 87,  points: 120}
+ten:    {size: [250, 220], offset: [17, 0],  radius: 109, points: 150}
+eleven: {size: [250, 250], offset: [0, 0],   radius: 125, points: 300}
+
+
